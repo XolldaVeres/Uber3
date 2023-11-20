@@ -1,0 +1,25 @@
+@mixin btn
+    color: $white
+    text-align: center
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+    text-transform: uppercase
+    border: none
+    border-radius: 4px
+    background-color: $main
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset
+    &:hover 
+        background: none
+        background-color: black
+        border: 2px solid $main
+        color: $main
+        transition: .6s all
+
+@mixin white-label
+    color: black
+    background-color: white
+@mixin white-title
+    color: white
+@mixin white-subtitle
+    color: white
+    
